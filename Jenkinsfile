@@ -44,7 +44,7 @@ pipeline{
     stage('Deploy'){
         steps{
               echo 'Deploying.......'
-              sh 'echo Deployment success'
+              sh 'Deployment success'
         }
     }
 
